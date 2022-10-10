@@ -1,2 +1,2 @@
 #!bin/bash
-tee | uniq 
+sort * | uniq | less
